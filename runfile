@@ -13,7 +13,7 @@ action 'g', 'generate' do |args|
     say "creating g`#{id}`"
     repocard_conf = create_repocard_conf id, values
     File.write "tmp/repocard.conf", repocard_conf
-    system "repocard tmp/repocard.conf > svg/#{id}.svg"
+    system "repocard tmp/repocard.conf > site/svg/#{id}.svg"
   end
 end
 
