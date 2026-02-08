@@ -31,6 +31,7 @@ repos:
   alf:             [Stable      , Mostly Stable, Active     , Power Users    ]
   apicake:         [Beta        , Mostly Stable, Supported  , Ruby Developers]
   approvals:       [Stable      , Mostly Stable, Active     , Developers     ]
+  arch-build:      [Beta        , Mostly Stable, Active     , Power Users    ]
   audio_addict:    [Stable      , Mostly Stable, Supported  , End Users      ]
   bashly:          [Stable      , SemVer       , Active     , Power Users    ]
   bobkit:          [Archived    , Locked       , Sunset     , Developers     ]
