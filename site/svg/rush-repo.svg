@@ -15,13 +15,13 @@
 <rect x='208' y='52' width='180' height='65' class='card' />
 <rect x='208' y='52' width='180' height='6' fill='#b78103' />
 <text x='218' y='77' class='label'>API POLICY</text>
-<text x='218' y='102' class='value' fill='#b78103'>Mostly Stable</text>
+<text x='218' y='102' class='value' fill='#b78103'>Locked</text>
 <rect x='400' y='52' width='180' height='65' class='card' />
-<rect x='400' y='52' width='180' height='6' fill='#b78103' />
+<rect x='400' y='52' width='180' height='6' fill='#1a7f37' />
 <text x='410' y='77' class='label'>MAINTENANCE STATUS</text>
-<text x='410' y='102' class='value' fill='#b78103'>Supported</text>
+<text x='410' y='102' class='value' fill='#1a7f37'>Active</text>
 <rect x='592' y='52' width='180' height='65' class='card' />
 <rect x='592' y='52' width='180' height='6' fill='#0b62d6' />
 <text x='602' y='77' class='label'>INTENDED AUDIENCE</text>
-<text x='602' y='102' class='value' fill='#0b62d6'>End Users</text>
+<text x='602' y='102' class='value' fill='#0b62d6'>Power Users</text>
 </svg>

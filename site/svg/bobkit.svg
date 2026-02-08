@@ -9,19 +9,19 @@
 <rect x='0' y='0' width='788' height='133' fill='#f7f7f5' />
 <text x='16' y='34' class='title'>Repo Card</text>
 <rect x='16' y='52' width='180' height='65' class='card' />
-<rect x='16' y='52' width='180' height='6' fill='#1a7f37' />
+<rect x='16' y='52' width='180' height='6' fill='#cc3344' />
 <text x='26' y='77' class='label'>PROJECT MATURITY</text>
-<text x='26' y='102' class='value' fill='#1a7f37'>Stable</text>
+<text x='26' y='102' class='value' fill='#cc3344'>Archived</text>
 <rect x='208' y='52' width='180' height='65' class='card' />
 <rect x='208' y='52' width='180' height='6' fill='#b78103' />
 <text x='218' y='77' class='label'>API POLICY</text>
-<text x='218' y='102' class='value' fill='#b78103'>Mostly Stable</text>
+<text x='218' y='102' class='value' fill='#b78103'>Locked</text>
 <rect x='400' y='52' width='180' height='65' class='card' />
-<rect x='400' y='52' width='180' height='6' fill='#b78103' />
+<rect x='400' y='52' width='180' height='6' fill='#cc3344' />
 <text x='410' y='77' class='label'>MAINTENANCE STATUS</text>
-<text x='410' y='102' class='value' fill='#b78103'>Supported</text>
+<text x='410' y='102' class='value' fill='#cc3344'>Sunset</text>
 <rect x='592' y='52' width='180' height='65' class='card' />
 <rect x='592' y='52' width='180' height='6' fill='#0b62d6' />
 <text x='602' y='77' class='label'>INTENDED AUDIENCE</text>
-<text x='602' y='102' class='value' fill='#0b62d6'>End Users</text>
+<text x='602' y='102' class='value' fill='#0b62d6'>Developers</text>
 </svg>
