@@ -1,0 +1,41 @@
+require 'yaml'
+require 'debug'
+
+title   'Repocard Hub'
+summary 'Static web site for all the repocards of @DannyBen'
+
+usage  'g|generate'
+help   'Generate all repocards'
+action 'g', 'generate' do |args|
+  system 'mkdir -p tmp'
+
+  config['repos'].each do |id, values|
+    say "creating g`#{id}`"
+    repocard_conf = create_repocard_conf id, values
+    File.write "tmp/repocard.conf", repocard_conf
+    system "repocard tmp/repocard.conf > svg/#{id}.svg"
+  end
+end
+
+helpers do
+  def config
+    @config ||= YAML.load_file('config.yml')
+  end
+
+  def create_repocard_conf(id, values)
+    result = []
+    slot_number = 0
+    config['slots'].each do |name, whitelist|
+      value = values[slot_number]
+      allowed = whitelist.keys
+      valid = allowed.include? value
+      color = whitelist[value]
+      raise "Invalid value: #{value} for #{name}" unless valid
+
+      result << "item=#{name}|#{color}|#{value}"
+      slot_number += 1      
+    end
+
+    result.join "\n"
+  end
+end

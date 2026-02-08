@@ -1,0 +1,34 @@
+slots:
+  Project Maturity:
+    Experimental: red
+    Alpha: orange
+    Beta: yellow
+    Stable: green
+    Legacy: orange
+    Archived: red
+
+  API Policy:
+    Unstable: orange
+    Mostly Stable: yellow
+    SemVer: green
+    Locked: yellow
+
+  Maintenance Status:
+    Active: green
+    Supported: yellow
+    Passive: orange
+    Bugfix-Only: orange
+    Sunset: red
+
+  Intended Audience:
+    Developers: blue
+    Power Users: blue
+    End Users: blue
+    Ruby Developers: blue
+
+repos:
+  bashly:         [Stable, SemVer,        Active,      Power Users]
+  active_cabinet: [Beta,   Mostly Stable, Bugfix-Only, Ruby Developers]
+  apicake:        [Beta,   Mostly Stable, Active,      Ruby Developers]
+  audio_addict:   [Stable, Mostly Stable, Active,      End Users]
+
