@@ -1,0 +1,58 @@
+<!-- Generated with repocard v0.2.0 (https://github.com/dannyben/repocard) -->
+<svg xmlns='http://www.w3.org/2000/svg' width='788' height='133' viewBox='0 0 788 133'>
+<style>
+  :root {
+    color-scheme: light dark;
+    --title: #1f2328;
+    --label: #5a6572;
+    --border: #e6e6e2;
+    --card: #ffffff;
+    --bg: #f7f7f5;
+    --accent-green: #22C55E;
+    --accent-yellow: #EAB308;
+    --accent-orange: #F97316;
+    --accent-red: #EF4444;
+    --accent-blue: #3B82F6;
+    --accent-strong: #222222;
+    --accent-neutral: #8F8F8F;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --title: #f0f6fc;
+      --label: #8b949e;
+      --border: #30363d;
+      --card: #0d1117;
+      --bg: #161b22;
+      --accent-green: #22C55E;
+      --accent-yellow: #EAB308;
+      --accent-orange: #F97316;
+      --accent-red: #EF4444;
+      --accent-blue: #3B82F6;
+      --accent-strong: #dddddd;
+      --accent-neutral: #A3A3A3;
+    }
+  }
+  .title { font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif; font-size: 16px; font-weight: 600; fill: var(--title); }
+  .label { font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.6px; fill: var(--label); }
+  .value { font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif; font-size: 16px; font-weight: 600; }
+  .card { fill: var(--card); stroke: var(--border); }
+</style>
+<rect x='0' y='0' width='788' height='133' fill='var(--bg)' />
+<text x='16' y='34' class='title'>Repo Card</text>
+<rect x='16' y='52' width='180' height='65' class='card' />
+<rect x='16' y='52' width='180' height='6' fill='var(--accent-yellow)' />
+<text x='26' y='77' class='label'>PROJECT MATURITY</text>
+<text x='26' y='102' class='value' fill='var(--accent-yellow)'>Beta</text>
+<rect x='208' y='52' width='180' height='65' class='card' />
+<rect x='208' y='52' width='180' height='6' fill='var(--accent-yellow)' />
+<text x='218' y='77' class='label'>API POLICY</text>
+<text x='218' y='102' class='value' fill='var(--accent-yellow)'>Mostly Stable</text>
+<rect x='400' y='52' width='180' height='65' class='card' />
+<rect x='400' y='52' width='180' height='6' fill='var(--accent-orange)' />
+<text x='410' y='77' class='label'>MAINTENANCE STATUS</text>
+<text x='410' y='102' class='value' fill='var(--accent-orange)'>Passive</text>
+<rect x='592' y='52' width='180' height='65' class='card' />
+<rect x='592' y='52' width='180' height='6' fill='var(--accent-blue)' />
+<text x='602' y='77' class='label'>INTENDED AUDIENCE</text>
+<text x='602' y='102' class='value' fill='var(--accent-blue)'>Ruby Developers</text>
+</svg>
