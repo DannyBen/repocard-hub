@@ -65,3 +65,41 @@ repos:
   victor:          [Stable      , Mostly Stable, Active     , Ruby Developers]
   watchly:         [Alpha       , Unstable     , Active     , Ruby Developers]
   watchly-cli:     [Alpha       , Unstable     , Active     , End Users      ]
+
+  # Unused yet
+  colorly:         [Alpha       , Unstable     , Supported  , End Users      ]
+  colsole:         [Stable      , SemVer       , Active     , Ruby Developers]
+  concode:         [Stable      , Mostly Stable, Supported  , Ruby Developers]
+  configly:        [Legacy      , Locked       , Sunset     , Ruby Developers]
+  datamix:         [Alpha       , Unstable     , Supported  , Ruby Developers]
+  docopt_ng:       [Stable      , Mostly Stable, Supported  , Ruby Developers]
+  docspec:         [Alpha       , Unstable     , Passive    , Ruby Developers]
+  dot_options:     [Beta        , Mostly Stable, Active     , Ruby Developers]
+  enforce:         [Alpha       , Unstable     , Passive    , Power Users    ]
+  eod:             [Alpha       , Unstable     , Passive    , End Users      ]
+  erbx:            [Beta        , Mostly Stable, Passive    , Ruby Developers]
+  extended_yaml:   [Beta        , Mostly Stable, Supported  , Ruby Developers]
+  # fredric:
+  # getcomments:
+  # httpme:
+  # icodi:
+  # lightly:
+  # loadrunner:
+  # lp:
+  # menu_commander:
+  # minichart:
+  # nasdaq:
+  # pobject:
+  # pretty_trace:
+  # pundit_extra:
+  # recode:
+  # redirectly:
+  # rentacop:
+  # requires:
+  # runfile-tasks:
+  # sasstool:
+  # sla:
+  # slacktail:
+  # slimview:
+  # sting:
+  # super_docopt:
