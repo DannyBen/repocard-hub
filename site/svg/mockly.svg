@@ -44,9 +44,9 @@
 <text x='26' y='77' class='label'>PROJECT MATURITY</text>
 <text x='26' y='102' class='value' fill='var(--accent-red)'>Experimental</text>
 <rect x='208' y='52' width='180' height='65' class='card' />
-<rect x='208' y='52' width='180' height='6' fill='var(--accent-orange)' />
+<rect x='208' y='52' width='180' height='6' fill='var(--accent-red)' />
 <text x='218' y='77' class='label'>API POLICY</text>
-<text x='218' y='102' class='value' fill='var(--accent-orange)'>Unstable</text>
+<text x='218' y='102' class='value' fill='var(--accent-red)'>Highly Unstable</text>
 <rect x='400' y='52' width='180' height='65' class='card' />
 <rect x='400' y='52' width='180' height='6' fill='var(--accent-green)' />
 <text x='410' y='77' class='label'>MAINTENANCE STATUS</text>
