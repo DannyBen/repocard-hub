@@ -74,6 +74,7 @@ repos:
   victor-cli:      [Stable      , Mostly Stable  , Active     , Ruby Developers]
   watchly-cli:     [Alpha       , Unstable       , Active     , End Users      ]
   watchly:         [Alpha       , Unstable       , Active     , Ruby Developers]
+  yo:              [Experimental, Highly Unstable, Active     , Power Users    ]
 
 slots:
   Project Maturity:
