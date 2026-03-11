@@ -59,7 +59,7 @@ repos:
   runfile-tasks:   [Stable      , Unstable       , Active     , Ruby Developers]
   runfile:         [Stable      , SemVer         , Active     , Ruby Developers]
   rush-repo:       [Stable      , Locked         , Active     , Power Users    ]
-  rush:            [Stable      , Mostly Stable  , Active     , Power Users    ]
+  rush:            [Stable      , SemVer         , Active     , Power Users    ]
   sam:             [Experimental, Unstable       , Active     , Power Users    ]
   sasstool:        [Stable      , Mostly Stable  , Supported  , Developers     ]
   secret_hub:      [Stable      , Mostly Stable  , Passive    , Power Users    ]
