@@ -75,8 +75,8 @@ repos:
   watchly-cli:     [Alpha       , Unstable       , Active     , End Users      ]
   watchly:         [Alpha       , Unstable       , Active     , Ruby Developers]
   ai-dudes:        [Experimental, Highly Unstable, Active     , Power Users    ]
-  ssi:             [Alpha       , Unstable       , Active     , Developers     ]
-  shellkin:        [Experimental, Unstable       , Active     , Developers     ]
+  ssi:             [Beta        , Unstable       , Active     , Developers     ]
+  shellkin:        [Alpha       , Unstable       , Active     , Developers     ]
 
 slots:
   Project Maturity:

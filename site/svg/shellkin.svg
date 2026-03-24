@@ -40,9 +40,9 @@
 <rect x='0' y='0' width='788' height='133' fill='var(--bg)' />
 <text x='16' y='34' class='title'>Repo Card</text>
 <rect x='16' y='52' width='180' height='65' class='card' />
-<rect x='16' y='52' width='180' height='6' fill='var(--accent-red)' />
+<rect x='16' y='52' width='180' height='6' fill='var(--accent-orange)' />
 <text x='26' y='77' class='label'>PROJECT MATURITY</text>
-<text x='26' y='102' class='value' fill='var(--accent-red)'>Experimental</text>
+<text x='26' y='102' class='value' fill='var(--accent-orange)'>Alpha</text>
 <rect x='208' y='52' width='180' height='65' class='card' />
 <rect x='208' y='52' width='180' height='6' fill='var(--accent-orange)' />
 <text x='218' y='77' class='label'>API POLICY</text>
