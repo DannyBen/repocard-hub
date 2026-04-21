@@ -77,6 +77,7 @@ repos:
   ai-dudes:        [Experimental, Highly Unstable, Active     , Power Users    ]
   ssi:             [Beta        , Unstable       , Active     , Developers     ]
   shellkin:        [Alpha       , Unstable       , Active     , Developers     ]
+  eget:            [Beta        , SemVer         , Active     , Power Users    ]
 
 slots:
   Project Maturity:
