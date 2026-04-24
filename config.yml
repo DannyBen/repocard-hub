@@ -34,7 +34,7 @@ repos:
   lightly:         [Stable      , Mostly Stable  , Supported  , Ruby Developers]
   loadrunner:      [Alpha       , Unstable       , Passive    , Developers     ]
   lp:              [Stable      , Mostly Stable  , Active     , Ruby Developers]
-  madman:          [Legacy      , Unstable       , Sunset     , End Users      ]
+  madman:          [Legacy      , Locked         , Sunset     , End Users      ]
   madness:         [Stable      , SemVer         , Supported  , End Users      ]
   mdview:          [Experimental, Unstable       , Active     , End Users      ]
   menu_commander:  [Beta        , Mostly Stable  , Passive    , Power Users    ]

@@ -4,12 +4,18 @@ require 'debug'
 title   'Repocard Hub'
 summary 'Static web site for all the repocards of @DannyBen'
 
-usage  'g|generate'
-help   'Generate all repocards'
+usage  '(g|generate) [REPO...]'
+help   'Generate some or all repocards'
+param  'REPO', 'Generate only for these repositories'
 action 'g', 'generate' do |args|
   system 'mkdir -p tmp'
+  repos = if args['REPO'].any?
+    config['repos'].select { |k, _v| args['REPO'].include? k }
+  else
+    config['repos']
+  end
 
-  config['repos'].each do |id, values|
+  repos.each do |id, values|
     say "creating g`#{id}`"
     repocard_conf = create_repocard_conf id, values
     File.write "tmp/repocard.conf", repocard_conf
