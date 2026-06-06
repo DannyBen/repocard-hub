@@ -79,6 +79,7 @@ repos:
   shellkin:        [Alpha       , Unstable       , Active     , Developers     ]
   eget:            [Beta        , SemVer         , Active     , Power Users    ]
   fontview:        [Alpha       , Unstable       , Active     , End Users      ]
+  config:          [Experimental, Unstable       , Active     , Power Users    ]
 
 slots:
   Project Maturity:
