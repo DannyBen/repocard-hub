@@ -80,6 +80,7 @@ repos:
   eget:            [Beta        , SemVer         , Active     , Power Users    ]
   fontview:        [Alpha       , Unstable       , Active     , End Users      ]
   config:          [Experimental, Unstable       , Active     , Power Users    ]
+  runpage:         [Experimental, Unstable       , Active     , Power Users    ]
 
 slots:
   Project Maturity:
