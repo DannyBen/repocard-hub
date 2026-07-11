@@ -36,7 +36,7 @@ repos:
   lp:              [Stable      , Mostly Stable  , Active     , Ruby Developers]
   madman:          [Legacy      , Locked         , Sunset     , End Users      ]
   madness:         [Stable      , SemVer         , Supported  , End Users      ]
-  mdview:          [Experimental, Unstable       , Active     , End Users      ]
+  mdview:          [Alpha       , Mostly Stable  , Active     , End Users      ]
   menu_commander:  [Beta        , Mostly Stable  , Passive    , Power Users    ]
   minichart:       [Alpha       , Mostly Stable  , Supported  , Ruby Developers]
   mister_bin:      [Stable      , Mostly Stable  , Active     , Ruby Developers]
