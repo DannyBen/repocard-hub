@@ -81,6 +81,7 @@ repos:
   fontview:        [Alpha       , Unstable       , Active     , End Users      ]
   config:          [Experimental, Unstable       , Active     , Power Users    ]
   runpage:         [Experimental, Unstable       , Active     , Power Users    ]
+  pm:              [Alpha       , Unstable       , Active     , End Users      ]
 
 slots:
   Project Maturity:
