@@ -83,6 +83,7 @@ repos:
   runpage:         [Experimental, Unstable       , Active     , Power Users    ]
   pm:              [Alpha       , Unstable       , Active     , End Users      ]
   gembrew:         [Experimental, Highly Unstable, Active     , Ruby Developers]
+  todo:            [Alpha,        Unstable       , Active     , Developers     ]
 
 slots:
   Project Maturity:
