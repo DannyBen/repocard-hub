@@ -84,6 +84,7 @@ repos:
   pm:              [Alpha       , Unstable       , Active     , End Users      ]
   gembrew:         [Experimental, Highly Unstable, Active     , Ruby Developers]
   todo:            [Alpha,        Unstable       , Active     , Developers     ]
+  commando:        [Experimental, Highly Unstable, Active     , End Users      ]
 
 slots:
   Project Maturity:
