@@ -86,6 +86,7 @@ repos:
   todo:            [Alpha       , Unstable       , Active     , Developers     ]
   commando:        [Alpha       , Mostly Stable  , Active     , Power Users    ]
   mockout:         [Alpha       , Unstable       , Active     , End Users      ]
+  reshape:         [Alpha       , Unstable       , Active     , End Users      ]
 
 slots:
   Project Maturity:
